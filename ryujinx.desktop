@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Ryujinx
+GenericName=Nintendo Switch Emulator
+Comment=Experimental Nintendo Switch Emulator written in C# (LDN build)
+Exec=Ryujinx
+Icon=/opt/ryujinx-ldn-bin/Ryujinx.ico
+Terminal=false
+Categories=Game;
