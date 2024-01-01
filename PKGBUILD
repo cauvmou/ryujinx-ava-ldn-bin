@@ -15,7 +15,7 @@ source=('https://www.patreon.com/file?h=74910544&i=13368553'
         'ryujinx.desktop')
 b2sums=('ed8d99635b9a1259491a08adace7eccb3a63d3ea592130458410f89ee62d65d0f02d453241cadca5e214943a4d01fbc30e6910c06c3debf430fc38c515a90847'
         '2c092c895b0fb9ea5214fa9366264801c885d8a3f68cf8aa08b66b2c561b976e6000a9eb94080cceb23d5a69cfbc9eebf80cf8a21d0ae7bb060a32947028b698'
-        '8fc955529929a4193c883571481a311b417f502a93fb42c22a2285ed2964895d16d2974f888ff3c46b28b659e44632c1bebc9cb7172bfe2d1fad3459948be89a')
+        '5e947c80ced8feea52dddeb50d6b8980e2d6c93fe50c612df5cb587a0ebb4cbedf27c49682b3f84f5e6cea20cd83915a070b224951961c8aa1c0504aadc8c0e9')
 
 package() {
     install -d "${pkgdir}/usr/bin/"
@@ -23,5 +23,5 @@ package() {
     install -Dm644 -t "${pkgdir}/opt/${pkgname}/" "${srcdir}/Ryujinx.ico"
     install -Dm644 -t "${pkgdir}/usr/share/applications/" "${srcdir}/ryujinx.desktop"
     cp -r "${srcdir}/publish/"* "${pkgdir}/opt/${pkgname}/"
-    ln -s "/opt/${pkgname}/Ryujinx" "${pkgdir}/usr/bin"
+    ln -s "/opt/${pkgname}/Ryujinx.Ava" "${pkgdir}/usr/bin"
 }
