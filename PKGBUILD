@@ -1,8 +1,8 @@
-# Maintainer: GCMarvin <GCMarvin@users.noreply.github.com>
-pkgname='ryujinx-ldn-bin'
-pkgver='1.1.0_ldn3.1.3'
+# Maintainer: Cauvmou <cauvmou.8855@gmail.com>
+pkgname='ryujinx-ava-ldn-bin'
+pkgver='1.1.0_avaldn3.1.3'
 pkgrel='3'
-pkgdesc='Experimental Nintendo Switch Emulator written in C# (LDN build)'
+pkgdesc='Experimental Nintendo Switch Emulator written in C# (LDN build, test ava build)'
 arch=('x86_64')
 url='https://www.patreon.com/ryujinx'
 license=('MIT')
